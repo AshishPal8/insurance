@@ -1,0 +1,89 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ background-color: whitesmoke
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.login{
+  /* background-image: linear-gradient(302deg, #08AEEA 0%, #2AF598 50%, #ffffff 100%); */
+  /* background-image: url('./image/loginimage.jpg'); */
+  background-size: cover; /* This property ensures that the background image covers the entire element */
+  background-repeat: no-repeat; 
+}
+.LoginCard{
+background-color: rgb(25 103 144 / 28%); 
+
+}
+
+
+
+
+
+.accordion-button:not(.collapsed) {
+  /* Remove or override the color and background-color properties */
+  color: inherit;
+  background-color: inherit;
+
+  /* Keep the rest of your styles */
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: inherit;
+  outline: 0;
+  box-shadow: var(--bs-accordion-btn-focus-box-shadow);
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1281px;
+  }
+}
+
+.avatar {
+  width: 56px;
+  height: 57px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu[data-bs-popper] {
+  top: 145%;
+  left: -132px;
+  margin-top: var(--bs-dropdown-spacer);
+}
+
+
+.navbar-brand {
+  padding-top: var(--bs-navbar-brand-padding-y);
+  padding-bottom: var(--bs-navbar-brand-padding-y);
+  margin-right: inherit;
+  font-size: var(--bs-navbar-brand-font-size);
+  color: var(--bs-navbar-brand-color);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+

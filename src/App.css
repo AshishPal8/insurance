@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+sup{
+  color:red;
+}
+label{
+  color:rgb(46, 35, 35)
+}
+
+
+.formData{
+  max-height:900px;
+  overflow-y: scroll;
+  max-width:90%;
+}
+
+.form-control{
+  font-size: small;
+}
+
+.form-label{
+  font-size: 15px;
+}
+
+.form-select{
+  font-size: small;
+}
+.width{
+  width:1165px;
+  margin-left:-80px;
+}
+
+tr{
+  font-size: 0.8rem;
+}
+td {
+  height: 50px;
+  vertical-align: middle;
+}
+a i{
+ 
+  vertical-align: middle;
+}
+
+.login_img{
+  width:100px;
+  margin-left:31%;
+}
+
+.pl{
+  padding-left:6.5rem;
+}
+.current{
+  background: rgb(43, 215, 140);
+  border-radius: 5px;
+  font-weight: 500;
+  color:white;
+  padding-left:1.6rem;
+  padding-top: 0.5rem;
+  height:2.5rem ;
+  width: auto;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.default{
+  padding-left:1.6rem;
+  padding-top: 0.5rem;
+}
+
+
+.current2{
+  background: rgb(43, 215, 140);
+  border-radius: 5px;
+  font-weight: 500;
+  color:white;
+  padding-left:0.8rem;
+  padding-top: 0.5rem;
+  height:2.5rem ;
+  width: auto;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+
+.default2{
+  padding-left:0.8rem;
+  padding-top: 0.5rem;
+}
+
+.loginForgot{
+  font-size:0.8rem ;
+  padding-left:2.7rem ;
+}
+.loginCheck{
+  font-size:0.8rem ;
+}
